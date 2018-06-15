@@ -19,7 +19,9 @@
 @import "bootstrap";
 
 body {
-	background: #E9E9E9;
+	background: #525252;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #3d72b4, #525252);
+	background: linear-gradient(to left, #3d72b4, #525252);
 }
 
 h1, h2, h3, h4, h5, h6 {
