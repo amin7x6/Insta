@@ -13,7 +13,7 @@ class PicsController < ApplicationController
   def create
     @pic = current_user.pics.build(pic_params)
     if @pic.save
-      redirect_to @pic, notice: "Yesss! it was posted!"
+      redirect_to @pic, notice: "YUP! it was posted!"
     else
       render 'new'
     end
